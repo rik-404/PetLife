@@ -6,22 +6,26 @@
     <title>PetLife</title>
     <meta name="description" content="Garanta uma vida longa e cheia de alaegria para o seu melhor amigo">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="./index.html">
-            <img src="./images/logo-white.png" alt="PetLife" width="92" height="auto">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        </a>
+        <nav class="cabecalho">        
+            <a href="./index.html">
+                <img src="./images/logo-white.png" alt="PetLife" width="92" height="auto">
+            </a>
         
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#clinica">Clínica</a>
-            <a href="#farmacia">Farmácia</a>
-            <a href="#duvidas">Dúvidas</a>
-        </nav>
+        <button class="menu-hamburguer" aria-label="Abrir menu">☰</button>
+        <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#clinica">Clínica</a></li>
+        <li><a href="#farmacia">Farmácia</a></li>
+        <li><a href="#duvidas">Dúvidas</a></li>
+        </ul>
+    </nav>
     </header>
 
     <main>
@@ -112,7 +116,7 @@
             <p>Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets é mais feliz!</p>
         </div>
 
-        <div>
+        <div class="rodape">
             <strong class="titulo">Links rápidos</strong>
             <nav>
                 <a href="#inicio">Início</a>

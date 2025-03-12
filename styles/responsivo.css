@@ -1,0 +1,116 @@
+/* Reset de estilos para garantir consistência */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgb(101, 144, 224);
+        padding: 10px 0;
+        z-index: 1;
+
+    }
+
+    .menu.ativo {
+        display: flex;
+        width: 90%;
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 10px 0;
+        border-top: 1px solid #000;
+    }
+
+    .menu a {
+        display: block;
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .menu-hamburguer {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: white;
+    }
+
+    #inicio {
+        margin: 80px 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    body{
+        background-color: #6666663b;
+    }
+    #inicio h1{
+        color: #000;
+    }
+
+    #inicio img {
+   display: none;
+    }
+
+    #inicio div {
+        padding: 0 15px;
+        max-width: 95%;
+    }
+
+    .botao, .botao-transparente {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #clinica {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #clinica img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #farmacia {
+        padding: 20px;
+    }
+
+    #duvidas {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .duvida{
+        max-width: 85%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+}

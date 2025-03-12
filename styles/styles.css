@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 body{
@@ -10,23 +11,46 @@ body{
     background-color: #eee;
 }
 
-header{
+.cabecalho{
     background-color: rgb(101, 144, 224);
-    padding: 24px 80px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    height: 70px;
 }
 
-header nav a{
-    color: #fff;
-    font-weight: 600;
-    padding: 32px;
+.cabecalho a{
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box; 
     text-decoration: none;
 }
 
-header nav a:hover{
-    color:blue
+.cabecalho img{
+    width: 150px;
+}
+
+.menu {
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none
+}
+
+.menu a {
+    padding: 10px 20px; /* Define um padding padrão */
+    border-radius: 15px; /* Adiciona bordas arredondadas, opcional */
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura e altura do elemento */
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color:blue;
+    background-color: #FFF;
+    border: 1px solid blue;
+}
+
+.menu-hamburguer{
+    display: none;
 }
 
 #inicio{
@@ -35,6 +59,7 @@ header nav a:hover{
     gap: 32px;
     padding: 24px 80px 128px;
     position: relative;
+    width: 100%;
 }
 
 h1,
@@ -42,20 +67,22 @@ h2{
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
+    color: blue;
 }
 
 .paragrafo{
     line-height: 150%;
-    margin-bottom: 32px;
+    margin-bottom: 80px;
 }
 
 .botao {
     background-color: rgb(101, 144, 224);
     border-radius: 8px;
-    padding: 16px 32px;
+    padding: 24px 32px;
     color: #fff;
     text-decoration: none;
 }
+
 .botao:hover{
     background-color: blue;
 }
@@ -63,12 +90,14 @@ h2{
 .botao-transparente{
     background-color: transparent;
     color: rgb(101, 144, 224);
-    padding: 16px 32px;
+    border-radius: 8px;
+    padding: 24px 32px;
     text-underline-offset: 4px;
 }
 
 .botao-transparente:hover{
     color: blue;
+    border: solid 1px blue;
 }
 
 .absolute{
@@ -170,12 +199,21 @@ footer .titulo{
     margin-bottom: 24px;
 }
 
-footer nav a{
+.rodape nav {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    gap: 16px; /* Espaço entre os itens */
+}
+
+.rodape nav a {
     color: #263138;
-    display: block;
-    margin-bottom: 16px;
     text-decoration: none;
-    
+    font-size: 16px;
+}
+
+.rodape nav a:hover{
+    color: blue;
+    font-weight: 500;
 }
 
 footer p{

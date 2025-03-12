@@ -95,6 +95,10 @@
         padding: 20px;
     }
 
+    #farmacia img{
+        max-width: 350px; 
+    }
+
     #duvidas {
         flex-direction: column;
         text-align: center;

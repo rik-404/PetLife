@@ -1,6 +1,6 @@
 # PetLife - Página de Clínica Veterinária e Petshop
 
-Este é um projeto de estudo desenvolvido durante o curso **Start na Programação** da OneBitCode. A página PetLife foi criada para representar uma clínica veterinária com petshop, oferecendo informações sobre serviços veterinários e produtos para pets.
+Este é um projeto de estudo desenvolvido durante o curso Start na Programação da OneBitCode. A página PetLife foi criada para representar uma clínica veterinária com petshop, oferecendo informações sobre serviços veterinários e produtos para pets. O site é do tipo One Page, ou seja, todas as informações estão dispostas em uma única página.
 
 ## Tecnologias Utilizadas
 - **HTML5** - Estrutura do site

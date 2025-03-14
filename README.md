@@ -28,7 +28,7 @@ Este é um projeto de estudo desenvolvido durante o curso Start na Programação
 Se desejar contribuir, fique à vontade para abrir um pull request ou relatar issues no repositório.
 
 ## Autor
-Desenvolvido por Ricardo (https://github.com/rik-404) no curso da OneBitCode.
+Desenvolvido por [Ricardo] (https://github.com/rik-404) no curso da OneBitCode.
 
 ---
 
